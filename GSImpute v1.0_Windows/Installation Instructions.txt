@@ -1,0 +1,17 @@
+Minimal Installation Instructions：
+1. Access the decompressed package directory
+Navigate to the folder containing the extracted software package.
+2. Activate Conda environment (if applicable)
+Activate your target virtual environment:
+conda activate your_env_name  # Replace 'your_env_name' with actual environment
+3. Install the package
+Install the package by running:
+python install.py
+You can use the -i flag to specify a PyPI mirror source, e.g.:
+python install.py -i https://pypi.tuna.tsinghua.edu.cn/simple
+4. Launch the application
+After successful installation, initiate the software by running:
+gsi
+
+For detailed installation instructions, please refer to the User Manual.
+
