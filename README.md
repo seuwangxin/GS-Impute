@@ -64,7 +64,7 @@ In a Windows operating system, a typical command for running GS-Impute is as fol
 
 Once you execute the command above in [a terminal window](http://dict.cn/To%20do%20this%2C%20just%20issue%20the%20following%20command%20in%20a%20terminal%20window), general imputation screen will be opened by default. The software interface and input/output format examples are shown in Fig. 1.
 
-![Fig 1](images/Fig 1.tif)
+![Fig 1](images/fig1.tif)
 
 **Fig. 1. Software interface on Windows system and input/output format examples of GS-Impute 1.0 for** **general imputation. (A)** The user interface of GS-Impute 1.0 for general imputation on Windows system. **(B)** The format example of the genotype file input for general imputation, where "..." represents some non-critical information. The file is allowed to contain markers of multiple chromosomes. For a genotype file in CSV or TXT format, the head of the column before valid genotype data must be ref, alt, or QCcode. **(C)** The format example of the reference panel input for general imputation. The panel should be a VCF file of a single chromosome, and only markers on the chromosome can be imputed. Missing markers are not permitted on the panel. **(D)** The format example of the output file for general imputation.
 
@@ -72,7 +72,7 @@ You can click the “*Browse*” button on the right side to select the genotype
 
 Once you have selected all the files, you can click the “*Add task*” button to add general imputation tasks to the task list (Fig. 2).
 
-![Fig 2](images/Fig 2.tif)
+![Fig 2](images/fig2.tif)
 
 **Fig. 2. Software interface of GS-Impute 1.0 with general imputation tasks added**
 
@@ -82,11 +82,11 @@ During task execution, the task log on the right shows real-time progress and de
 
 You can also click the “*Reconstructive Imputation*” button to perform your reconstructive imputation (Fig. 3).
 
-![Fig 3](images/Fig 3.tif)
+![Fig 3](images/fig3.tif)
 
 **Fig. 3. Software interface on Windows system and input/output format examples of GS-Impute 1.0 for reconstructive imputation. (A)** The user interface of GS-Impute 1.0 for reconstructive imputation on Windows system. **(B)** The format example of the genotype file input for reconstructive imputation, where "..." represents some non-critical information. The file is allowed to contain markers of multiple chromosomes. For a genotype file in CSV or TXT format, the head of the column before valid genotype data must be ref, alt, or QCcode. **(C)** The format example of the position file input for reconstructive imputation. It is allowed to contain position information of multiple chromosomes. A genotype file containing chromosome and position information can also serve as the position file. **(D)** The format example of the reference panel input for reconstructive imputation. The panel should be a VCF file of a single chromosome, and only markers on the chromosome can be imputed. Missing markers are not permitted on the panel. **(E)** The format example of the output file for reconstructive imputation. The genotype values of 1 and 3 represent homozygous variants with two reference alleles and two alternate alleles, respectively. The genotype value of 2 represents a heterozygous variant that has one copy of the reference allele and one copy of the alternate allele.
 
-![Fig 4](images/Fig 4.tif)
+![Fig 4](images/fig4.tif)
 
 **Fig. 4. Software interface of GS-Impute 1.0 with reconstructive imputation tasks added**
 
@@ -156,3 +156,4 @@ The program will perform the imputation tasks in the order of the shell script, 
 ## 图片内容
 
 [检测到图片但LLM不可用，无法识别内容]
+
