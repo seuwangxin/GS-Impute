@@ -1,4 +1,4 @@
-**GS-Impute: accurate genotype imputation via neural networks for across-population genomic selection with low-density markers**
+# GS-Impute: accurate genotype imputation via neural networks for across-population genomic selection with low-density markers
 
 The Python project 'GS-Impute' can be used to implement genotype imputation for across-population genomic selection with low-density markers. Compatible with both Windows and Linux operating systems, it can efficiently process genotype data in multiple file formats (VCF, CSV and TXT). More information could be found in the user manual.
 
@@ -153,6 +153,7 @@ Open the terminal in the current directory. Activate the virtual environment “
 *bash gsi.sh*
 
 The program will perform the imputation tasks in the order of the shell script, and the imputed files will be output in the current directory.
+
 
 
 
