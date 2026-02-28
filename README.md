@@ -64,7 +64,7 @@ In a Windows operating system, a typical command for running GS-Impute is as fol
 
 Once you execute the command above in [a terminal window](http://dict.cn/To%20do%20this%2C%20just%20issue%20the%20following%20command%20in%20a%20terminal%20window), general imputation screen will be opened by default. The software interface and input/output format examples are shown in Fig. 1.
 
-![Fig 1](images/fig1.tif)
+![Fig 1](images/fig1.png)
 
 **Fig. 1. Software interface on Windows system and input/output format examples of GS-Impute 1.0 for** **general imputation. (A)** The user interface of GS-Impute 1.0 for general imputation on Windows system. **(B)** The format example of the genotype file input for general imputation, where "..." represents some non-critical information. The file is allowed to contain markers of multiple chromosomes. For a genotype file in CSV or TXT format, the head of the column before valid genotype data must be ref, alt, or QCcode. **(C)** The format example of the reference panel input for general imputation. The panel should be a VCF file of a single chromosome, and only markers on the chromosome can be imputed. Missing markers are not permitted on the panel. **(D)** The format example of the output file for general imputation.
 
@@ -156,4 +156,5 @@ The program will perform the imputation tasks in the order of the shell script, 
 ## 图片内容
 
 [检测到图片但LLM不可用，无法识别内容]
+
 
