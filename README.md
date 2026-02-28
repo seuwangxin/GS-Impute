@@ -12,13 +12,13 @@ GPU-enabled PyTorch version (recommended)
 
 Here are the install commands of PyTorch. Scroll down for the step-by-step instructions.
 
-**1.1 Step-by-step instructions of installing PyTorch**
+**1 Step-by-step instructions of installing PyTorch**
 
-**1. Install Miniconda**
+**1.1 Install Miniconda**
 
 Miniconda is the recommended approach for installing PyTorch with GPU support. It creates a separate environment to avoid changing any installed software in your system. This is also the easiest way to install the required software especially for the GPU setup. Download the Miniconda Windows Installer (*https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86\_64.exe*) or the Miniconda Linux Installer (*https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86.sh*). Follow the on-screen instructions and choose the default options.
 
-**2. Create a Conda environment**
+**1.2 Create a Conda environment**
 
 Open a terminal (by clicking on the “Anaconda Promp” button through the Start menu in Windows). Create a Conda virtual environment named pytorch (other names are also acceptable) with the following commands [in a terminal window](http://dict.cn/To%20do%20this%2C%20just%20issue%20the%20following%20command%20in%20a%20terminal%20window) (taking python 3.9 as an example).
 
@@ -32,7 +32,7 @@ You can deactivate and activate it with the following commands.
 
 Make sure it is activated for the rest of the installation.
 
-**3. Install PyTorch**
+**1.3 Install PyTorch**
 
 Install PyTorch (with GPU support) using the following command (taking NVIDIA RTX 4090 as an example).
 
@@ -42,7 +42,7 @@ If you are not using a GPU (not recommended), run the following command.
 
 *pip3 install torch torchvision torchaudio*
 
-**1.2 Install GS-Impute**
+**2 Install GS-Impute**
 
 You should download the GSImpute v1.0\_Windows package. If under the Windows operating system, open [a terminal window](http://dict.cn/To%20do%20this%2C%20just%20issue%20the%20following%20command%20in%20a%20terminal%20window) and navigate to the download directory (taking “D:\GSImpute v1.0\_Windows” as an example). Then activate your Conda environment that has already installed PyTorch, and install GS-Impute with the following commands.
 
@@ -54,9 +54,9 @@ You should download the GSImpute v1.0\_Windows package. If under the Windows ope
 
 *python install.py*
 
-**1.3 Usage**
+**3 Usage**
 
-**1. For the Windows operating system**
+**3.1 For the Windows operating system**
 
 In a Windows operating system, a typical command for running GS-Impute is as follows:
 
@@ -90,7 +90,7 @@ You can also click the “*Reconstructive Imputation*” button to perform your 
 
 **Fig. 4. Software interface of GS-Impute 1.0 with reconstructive imputation tasks added**
 
-**2. For the Linux operating system**
+**3.2 For the Linux operating system**
 
 A typical GS-Impute command for the general imputation is as follows:
 
@@ -153,10 +153,3 @@ Open the terminal in the current directory. Activate the virtual environment “
 *bash gsi.sh*
 
 The program will perform the imputation tasks in the order of the shell script, and the imputed files will be output in the current directory.
-
-
-
-
-
-
-
