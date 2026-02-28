@@ -153,9 +153,7 @@ Open the terminal in the current directory. Activate the virtual environment “
 *bash gsi.sh*
 
 The program will perform the imputation tasks in the order of the shell script, and the imputed files will be output in the current directory.
-## 图片内容
 
-[检测到图片但LLM不可用，无法识别内容]
 
 
 
